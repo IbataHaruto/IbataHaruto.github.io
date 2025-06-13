@@ -1,0 +1,36 @@
+body{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+/*p{
+  
+}*/ 
+h2{
+    margin-top:0;
+    margin-bottom: 0.3em;
+    border-left: red 0.3em solid;
+}
+div#contents{
+    width: 600px;
+    position: absolute;
+    top: 0em;
+    left: 200px;
+   }
+div#left{
+width: 200px;
+position: absolute;
+left: 100px;
+top: 5.8em;
+}
+div#right{
+width : 200px;
+position: absolute;
+left: 900px;
+top : 5.8em;
+}
