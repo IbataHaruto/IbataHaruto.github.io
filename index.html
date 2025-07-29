@@ -1,50 +1,72 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <title >ポートフォリオ</title>
-        <link rel = "stylesheet"type="text/css"href="Layout.css">
-        <meta http-equiv="Content-Style-Type" content="text/css">
-        <style type="text/css">
-            <!--
-            -->
-        </style>
-    </head>
-    <body>
-        <div id="left">ああああ</div>
-        <div id="contents">
-            <h1 id="top">マイページ</h1>
-            <h2>１.自己紹介</h2>
-            <p>名前:井端大翔</p>
-            <p>人物像</p>
-            <p>作りたい作品:アクション</p>
-            <h2>２.作品紹介</h2>
-            <ul>
-                <li>モノクロジャンプ</li>
-                <ol>
-                    <li>ジャンル:アクション</li>
-                    <li>制作期間:1か月</li>
-                    <li>制作人数:プログラマー1人</li>
-                    <li>        プランナー2人</li>
-                    <li>        デザイナー1人</li>
-                    <li>作品概要</li>
-                </ol>
-                <img src="MonokuroImage.png">
-                <li>作品名</li>
-                <ol>
-                    <li>ジャンル</li>
-                    <li>制作期間</li>
-                    <li>制作人数</li>
-                    <li>作品概要</li>
-                </ol>
-                <img src="作品の画像.png">
-            </ul>
-            <h2>３.実績</h2>
-            <span style="font-size: 3em;"></span>
-                <p>書くものがあり次第追加予定</p>
-            <h2>４.思いついたら追加</h2>
-            <p><a href="#top">Topへ戻る</p>
-        </div>
-        <div id ="right">ああああ</div>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>井端大翔 ポートフォリオ</title>
+  <link rel="stylesheet" type="text/css" href="Layout.css">
+</head>
+<body>
+  <h1 id="top">ポートフォリオ｜井端大翔</h1>
+
+  <main id="contents">
+    <section>
+      <h2>１. 自己紹介</h2>
+      <p><strong>名前：</strong>井端 大翔</p>
+      <p><strong>人物像：</strong>順次追加予定</p>
+      <p><strong>作りたい作品：</strong>順次追加予定</p>
+    </section>
+
+    <section>
+      <h2>２. 作品紹介</h2>
+
+      <div class="project">
+        <h3>モノクロジャンプ</h3>
+        <ul>
+          <li>ジャンル：アクション</li>
+          <li>制作期間：1か月</li>
+          <li>チーム構成：プログラマー1人 / プランナー2人 / デザイナー1人</li>
+          <li>担当：ステージ設計 / プレイヤー制御 / カメラ演出 / バグ修正</li>
+        </ul>
+        <p>作品概要：モノクロの世界を舞台に、テンポ感あるジャンプ操作で道を切り開くアクションゲーム。</p>
+
+        <video controls width="100%">
+          <source src="モノクロジャンプ.mp4" type="video/mp4">
+          お使いのブラウザでは動画が再生できません。
+        </video>
+      </div>
+
+      <div class="project">
+        <h3>未公開作品名</h3>
+        <ul>
+          <li>ジャンル：○○</li>
+          <li>制作期間：○○</li>
+          <li>制作人数：○○</li>
+          <li>概要：○○</li>
+        </ul>
+        <img src="作品の画像.png" alt="作品のスクリーンショット">
+      </div>
+    </section>
+
+    <section>
+      <h2>３. 実績</h2>
+      <p>現在準備中。近日中に更新予定です。</p>
+    </section>
+
+    <section>
+      <h2>４. その他</h2>
+      <p>思いついた内容を順次追加予定。</p>
+    </section>
+
+    <section>
+      <h2>５. GitHub リンク</h2>
+      <p><a href="https://github.com/IbataHaruto/ExtraTeam" target="_blank">ExtraTeam リポジトリはこちら</a></p>
+      <p>Unity によるステージ生成・スクリプト管理・カメラ演出を担当。</p>
+    </section>
+
+    <footer>
+      <p><a href="#top">▲ページの先頭に戻る</a></p>
+    </footer>
+  </main>
+</body>
 </html>
